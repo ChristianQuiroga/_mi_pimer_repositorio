@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\bin\Debug\net6.0\MiHolaMundoEnCSharp.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\bin\Debug\net6.0\MiHolaMundoEnCSharp.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\bin\Debug\net6.0\MiHolaMundoEnCSharp.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\bin\Debug\net6.0\MiHolaMundoEnCSharp.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\bin\Debug\net6.0\MiHolaMundoEnCSharp.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\refint\MiHolaMundoEnCSharp.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\MiHolaMundoEnCSharp.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\MiHolaMundoEnCSharp\obj\Debug\net6.0\ref\MiHolaMundoEnCSharp.dll
