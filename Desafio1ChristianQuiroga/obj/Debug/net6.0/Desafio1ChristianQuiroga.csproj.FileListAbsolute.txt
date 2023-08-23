@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\bin\Debug\net6.0\Desafio1ChristianQuiroga.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\bin\Debug\net6.0\Desafio1ChristianQuiroga.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\bin\Debug\net6.0\Desafio1ChristianQuiroga.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\bin\Debug\net6.0\Desafio1ChristianQuiroga.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\bin\Debug\net6.0\Desafio1ChristianQuiroga.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\refint\Desafio1ChristianQuiroga.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\Desafio1ChristianQuiroga.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\Desafio1ChristianQuiroga\obj\Debug\net6.0\ref\Desafio1ChristianQuiroga.dll
