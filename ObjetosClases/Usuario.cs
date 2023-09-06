@@ -59,5 +59,14 @@ namespace ObjetosClases
         {
             return (this._email == string.Empty);
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine("Nombre Apellido: " + _nombre + _apellido);
+            Console.WriteLine("DNI: " + _dni);
+            Console.WriteLine($"Edad: {_edad}");
+            Console.WriteLine($"E-Mail: {_email}");
+            Console.WriteLine($"Domicilio: {_domicilio}");
+        }
     }
 }

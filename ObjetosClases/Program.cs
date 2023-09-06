@@ -1,6 +1,8 @@
 ﻿using ObjetosClases;
 using System.Runtime.CompilerServices;
 
+char confirma;
+
 Usuario testUsuario = new Usuario();
 Usuario testUsuarioParam = new Usuario("Chris", "Quiroga", 93801424, "chris.quiroga12@gmail.com", 44, "Chiclana 4598");
 
@@ -43,7 +45,31 @@ Console.WriteLine($"Cambiar la direción {testUsuarioParam.Domicilio}");
 
 testUsuarioParam.Domicilio = Console.ReadLine();
 Console.WriteLine($"La nueva dirección es : {testUsuarioParam.Domicilio}");
-Console.ReadKey();
+
+//Generar un usuario Nuevo
+Console.WriteLine("Agregar un usuario nuevo: [s/n]");
+confirma = Convert.ToChar(Console.ReadLine().ToUpper());
+if (confirma == 'S')
+{
+    Usuario newUsuario = new Usuario();
+    Console.WriteLine("Nombre: ");
+    newUsuario.Nombre = Console.ReadLine();
+    Console.WriteLine("Apellido: ");
+    newUsuario.Apellido = Console.ReadLine();
+    Console.WriteLine("DNI: ");
+    newUsuario.Dni = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("e-mail: ");
+    newUsuario.Email = Console.ReadLine();
+    Console.WriteLine("Edad: ");
+    newUsuario.Edad = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Domicilio: ");
+    newUsuario.Domicilio = Console.ReadLine();
+    
+    Console.WriteLine();
+    newUsuario.MostrarDatos();
+}
+
+
 
 
 
