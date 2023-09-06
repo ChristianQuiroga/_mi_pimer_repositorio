@@ -8,23 +8,25 @@ namespace ObjetosClases
 {
     internal class Usuario
     {
-        //atributos
+        #region atributos
         private string _nombre;
         private string _apellido;
         private int _dni;
         private string _email;
         private int _edad;
         private string _domicilio;
-        
-        //get & set
+        #endregion
+
+        #region get & set
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Apellido { get => _apellido; set => _apellido = value; }
         public int Dni { get => _dni; set => _dni = value; }
         public string Email { get => _email; set => _email = value; }
         public int Edad { get => _edad; set => _edad = value; }
         public string Domicilio { get => _domicilio; set => _domicilio = value; }
+        #endregion
 
-
+        #region Constructores
         //Constructores por Defecto!
         public Usuario()
         {
@@ -45,8 +47,9 @@ namespace ObjetosClases
             this._edad = edad;
             this._domicilio = domicilio;
         }
-        
-        //Métodos
+
+        #endregion
+        #region Métodos
         public bool EsMayorEdad()
         {
             return this._edad >= 18;
@@ -68,5 +71,6 @@ namespace ObjetosClases
             Console.WriteLine($"E-Mail: {_email}");
             Console.WriteLine($"Domicilio: {_domicilio}");
         }
+        #endregion
     }
 }
