@@ -49,6 +49,7 @@ namespace ObjetosClases
         }
 
         #endregion
+
         #region Métodos
         public bool EsMayorEdad()
         {
@@ -65,11 +66,14 @@ namespace ObjetosClases
 
         public void MostrarDatos()
         {
+            Console.WriteLine("");
+            Console.WriteLine("*******************************************");
             Console.WriteLine("Nombre Apellido: " + _nombre + _apellido);
             Console.WriteLine("DNI: " + _dni);
             Console.WriteLine($"Edad: {_edad}");
             Console.WriteLine($"E-Mail: {_email}");
             Console.WriteLine($"Domicilio: {_domicilio}");
+            Console.WriteLine("*******************************************");
         }
         #endregion
     }
