@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\bin\Debug\net6.0\RealizarVenta_U4.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\bin\Debug\net6.0\RealizarVenta_U4.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\bin\Debug\net6.0\RealizarVenta_U4.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\bin\Debug\net6.0\RealizarVenta_U4.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\bin\Debug\net6.0\RealizarVenta_U4.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\refint\RealizarVenta_U4.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\RealizarVenta_U4.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\RealizarVenta_U4\obj\Debug\net6.0\ref\RealizarVenta_U4.dll

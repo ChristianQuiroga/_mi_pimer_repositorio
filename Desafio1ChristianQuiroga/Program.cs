@@ -25,7 +25,8 @@ int val1 = 0;
 int val2 = 0;
 
 //Console.WriteLine("Ingrese num 1: ") + Convert.ToInt32(Console.ReadLine(val1));
-Console.WriteLine("Ingrese num 1:");
+//Console.WriteLine("Ingrese num 1:{0}", (val1 = Convert.ToInt32(Console.ReadLine())));
+Console.WriteLine("Ingrese num 1: ");
 val1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Ingrese num 2:");
 val2 = Convert.ToInt32(Console.ReadLine());

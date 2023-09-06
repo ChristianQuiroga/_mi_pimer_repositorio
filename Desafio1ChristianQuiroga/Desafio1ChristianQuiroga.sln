@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio1ChristianQuiroga", "Desafio1ChristianQuiroga.csproj", "{27B4CB81-C709-4AC6-A01F-B9AB33561B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio1ChristianQuiroga", "Desafio1ChristianQuiroga.csproj", "{27B4CB81-C709-4AC6-A01F-B9AB33561B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2Practice", "..\Class2Practice\Class2Practice.csproj", "{13BE5003-7DC9-4FD6-BEA1-2605A91DB5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsValidarAccesos", "..\WinFormsValidarAccesos\WinFormsValidarAccesos.csproj", "{E5EB6367-4350-4C40-BB4E-B9A23312870A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{27B4CB81-C709-4AC6-A01F-B9AB33561B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B4CB81-C709-4AC6-A01F-B9AB33561B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B4CB81-C709-4AC6-A01F-B9AB33561B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BE5003-7DC9-4FD6-BEA1-2605A91DB5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BE5003-7DC9-4FD6-BEA1-2605A91DB5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BE5003-7DC9-4FD6-BEA1-2605A91DB5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BE5003-7DC9-4FD6-BEA1-2605A91DB5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EB6367-4350-4C40-BB4E-B9A23312870A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EB6367-4350-4C40-BB4E-B9A23312870A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EB6367-4350-4C40-BB4E-B9A23312870A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EB6367-4350-4C40-BB4E-B9A23312870A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

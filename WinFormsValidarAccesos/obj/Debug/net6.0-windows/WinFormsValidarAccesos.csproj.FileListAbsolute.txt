@@ -1,0 +1,16 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\bin\Debug\net6.0-windows\WinFormsValidarAccesos.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\bin\Debug\net6.0-windows\WinFormsValidarAccesos.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\bin\Debug\net6.0-windows\WinFormsValidarAccesos.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\bin\Debug\net6.0-windows\WinFormsValidarAccesos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\bin\Debug\net6.0-windows\WinFormsValidarAccesos.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.Form1.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.csproj.GenerateResource.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\refint\WinFormsValidarAccesos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\WinFormsValidarAccesos.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\WinFormsValidarAccesos\obj\Debug\net6.0-windows\ref\WinFormsValidarAccesos.dll

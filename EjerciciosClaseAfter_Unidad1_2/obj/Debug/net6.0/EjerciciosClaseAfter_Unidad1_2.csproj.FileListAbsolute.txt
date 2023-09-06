@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\bin\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\bin\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\bin\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\bin\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\bin\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\refint\EjerciciosClaseAfter_Unidad1_2.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\EjerciciosClaseAfter_Unidad1_2.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\EjerciciosClaseAfter_Unidad1_2\obj\Debug\net6.0\ref\EjerciciosClaseAfter_Unidad1_2.dll
