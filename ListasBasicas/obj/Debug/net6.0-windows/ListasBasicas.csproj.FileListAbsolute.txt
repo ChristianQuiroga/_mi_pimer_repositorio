@@ -14,3 +14,4 @@ C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.pdb
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.genruntimeconfig.cache
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ref\ListasBasicas.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.AlaCarta_actividad.resources
