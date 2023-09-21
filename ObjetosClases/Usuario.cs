@@ -59,9 +59,14 @@ namespace ObjetosClases
         {
             return this._domicilio = domicilio;
         }
-        public bool EsGmail()
+        public bool EsGmail(string email)
         {
-            return (this._email == string.Empty);
+            if (this._email.Contains("gmail"))
+            {
+                return true;
+            }
+            else return false;
+
         }
 
         public void MostrarDatos()

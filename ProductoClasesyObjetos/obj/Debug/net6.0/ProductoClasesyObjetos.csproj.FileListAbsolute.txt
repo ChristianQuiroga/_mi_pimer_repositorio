@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\bin\Debug\net6.0\ProductoClasesyObjetos.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\bin\Debug\net6.0\ProductoClasesyObjetos.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\bin\Debug\net6.0\ProductoClasesyObjetos.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\bin\Debug\net6.0\ProductoClasesyObjetos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\bin\Debug\net6.0\ProductoClasesyObjetos.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\refint\ProductoClasesyObjetos.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ProductoClasesyObjetos.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProductoClasesyObjetos\obj\Debug\net6.0\ref\ProductoClasesyObjetos.dll

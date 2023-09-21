@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\bin\Debug\net6.0\JugadorAbstracto.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\bin\Debug\net6.0\JugadorAbstracto.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\bin\Debug\net6.0\JugadorAbstracto.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\bin\Debug\net6.0\JugadorAbstracto.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\bin\Debug\net6.0\JugadorAbstracto.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\refint\JugadorAbstracto.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\JugadorAbstracto.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\JugadorAbstracto\obj\Debug\net6.0\ref\JugadorAbstracto.dll

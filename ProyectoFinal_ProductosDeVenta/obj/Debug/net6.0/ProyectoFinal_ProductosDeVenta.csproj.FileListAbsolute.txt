@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\ProyectoFinal_ProductosDeVenta.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\ProyectoFinal_ProductosDeVenta.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\ProyectoFinal_ProductosDeVenta.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\ProyectoFinal_ProductosDeVenta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\ProyectoFinal_ProductosDeVenta.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\refint\ProyectoFinal_ProductosDeVenta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ref\ProyectoFinal_ProductosDeVenta.dll

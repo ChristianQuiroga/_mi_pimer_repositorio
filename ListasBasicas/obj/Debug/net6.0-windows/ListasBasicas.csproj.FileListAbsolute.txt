@@ -1,0 +1,16 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\bin\Debug\net6.0-windows\ListasBasicas.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\bin\Debug\net6.0-windows\ListasBasicas.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\bin\Debug\net6.0-windows\ListasBasicas.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\bin\Debug\net6.0-windows\ListasBasicas.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\bin\Debug\net6.0-windows\ListasBasicas.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.Form1.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.csproj.GenerateResource.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\refint\ListasBasicas.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ListasBasicas.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ListasBasicas\obj\Debug\net6.0-windows\ref\ListasBasicas.dll

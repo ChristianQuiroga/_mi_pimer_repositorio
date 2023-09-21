@@ -1,0 +1,14 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\bin\Debug\net6.0\ClaseAbstracta.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\bin\Debug\net6.0\ClaseAbstracta.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\bin\Debug\net6.0\ClaseAbstracta.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\bin\Debug\net6.0\ClaseAbstracta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\bin\Debug\net6.0\ClaseAbstracta.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\refint\ClaseAbstracta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ClaseAbstracta.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ClaseAbstracta\obj\Debug\net6.0\ref\ClaseAbstracta.dll
