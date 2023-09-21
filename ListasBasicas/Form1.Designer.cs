@@ -39,6 +39,7 @@
             btnEliminarItem = new Button();
             btnModificar = new Button();
             btnLimpiar = new Button();
+            lstProductoPetShop = new ListBox();
             SuspendLayout();
             // 
             // lblSaludo
@@ -166,12 +167,22 @@
             btnLimpiar.UseVisualStyleBackColor = true;
             btnLimpiar.Click += btnLimpiar_Click;
             // 
+            // lstProductoPetShop
+            // 
+            lstProductoPetShop.FormattingEnabled = true;
+            lstProductoPetShop.ItemHeight = 15;
+            lstProductoPetShop.Location = new Point(48, 365);
+            lstProductoPetShop.Name = "lstProductoPetShop";
+            lstProductoPetShop.Size = new Size(628, 274);
+            lstProductoPetShop.TabIndex = 11;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(704, 313);
+            ClientSize = new Size(704, 700);
+            Controls.Add(lstProductoPetShop);
             Controls.Add(btnLimpiar);
             Controls.Add(btnModificar);
             Controls.Add(btnEliminarItem);
@@ -204,5 +215,6 @@
         private Button btnEliminarItem;
         private Button btnModificar;
         private Button btnLimpiar;
+        private ListBox lstProductoPetShop;
     }
 }

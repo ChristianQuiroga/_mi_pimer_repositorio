@@ -9,6 +9,8 @@ namespace ListasBasicas
 
         //declaramos el Diccionario  a nivel clase, y pueda ser visible en nuestro botones.
         private Dictionary<string, string> ciudadesxPaises = new Dictionary<string, string>();
+        //Dictionary ProducPetShop
+        private Dictionary<string, Dictionary<string, double>> catalogoPetShop = new Dictionary<string, Dictionary<string, double>>();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -89,6 +91,31 @@ namespace ListasBasicas
                 lstCiudadesxPaises.Items.Add(ciudad.Key + " - " + ciudad.Value);
             }
 
+            #region ProductoPetShop Diccionario
+            catalogoPetShop.Add("Alimentos para Gatos Adultos", new Dictionary<string, double> { { "Cat Chow", 900},
+                                                                                                    {"Wiskas", 1200},
+                                                                                                    {"Pedigres", 1800}});
+            catalogoPetShop.Add("Alimentos para Perros Cachorros", new Dictionary<string, double> { {"Doc Chow", 700},
+                                                                                                    {"Proplan", 900},
+                                                                                                    {"Pedigres", 1100}});
+            catalogoPetShop.Add("Alimentos para Gatos Cachorros", new Dictionary<string, double> { { "Cat Chow",650},
+                                                                                                    {"Wiskas", 850},
+                                                                                                    {"Pedigres", 1250}});
+            catalogoPetShop.Add("Alimentos para Perros Adultos", new Dictionary<string, double> { {"Doc Chow", 850},
+                                                                                                    {"Proplan", 1350},
+                                                                                                    {"Pedigres", 1450}});
+            //Lo recorremos con el Foreach() doblemente.
+            lstProductoPetShop.Items.Add("Sección\t\t\t\t\tProducto\t\tPrecio"); //las \t\t es una tabulación
+            foreach  (KeyValuePair<string,Dictionary<String,Double>> seccion in catalogoPetShop)
+            {
+                lstProductoPetShop.Items.Add(seccion.Key);
+                foreach(KeyValuePair<string,double> precioValor in seccion.Value)
+                {
+                    lstProductoPetShop.Items.Add("\t\t\t\t\t" + precioValor.Key + "\t\t" + precioValor.Value);
+                }
+            }
+            #endregion
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -131,5 +158,7 @@ namespace ListasBasicas
             lstCiudadesxPaises.Items.Clear();
             MessageBox.Show("Se limpio el contenido del Diccionario");
         }
+
+
     }
 }
