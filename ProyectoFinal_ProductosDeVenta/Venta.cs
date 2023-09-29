@@ -9,17 +9,22 @@ namespace ProyectoFinal_ProductosDeVenta
     internal class Venta
     {
 
-        #region propiedades
-        
+        #region atributos
         private int _id;
         private string _comentarios;
         private int _idUsuario;
+        #endregion
 
+
+
+        #region Propiedades
         public int Id { get => _id; set => _id = value; }
         public string Comentarios { get => _comentarios; set => _comentarios = value; }
         public int IdUsuario { get => _idUsuario; set => _idUsuario = value; }
-        
+
         #endregion
+
+
 
         #region constructores
         //parámetros
@@ -36,7 +41,6 @@ namespace ProyectoFinal_ProductosDeVenta
             _comentarios = string.Empty;
             _idUsuario = 0;
         }
-        
         #endregion
     }
 }

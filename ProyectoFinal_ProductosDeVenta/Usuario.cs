@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal_ProductosDeVenta
 {
-    internal class Usuario
+    public class Usuario
     {
 
-        #region Propiedades
+        #region atributos
         private int _id;
         private string _nombre;
         private string _apellido;
@@ -18,31 +18,7 @@ namespace ProyectoFinal_ProductosDeVenta
         private string _mail;
         #endregion
 
-
-        #region Constructores
-        //por Defecto
-        public Usuario()
-        {
-            this._id = 0;
-            this._nombre = string.Empty;
-            this._apellido = string.Empty;
-            this._nombreUsuario = string.Empty;
-            this._contrasena = string.Empty;
-            this._mail = string.Empty;
-        }
-        //Parámetros
-        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contrasena, string mail)
-        {
-            this._id = id;
-            this._nombre = nombre;
-            this._apellido = apellido;
-            this._nombreUsuario = nombreUsuario;
-            this._contrasena = contrasena;
-            this._mail = mail;
-        }
-        #endregion
-
-        #region get y set
+        #region propiedades
         public int Id { get => _id; set => _id = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Apellido { get => _apellido; set => _apellido = value; }
@@ -51,5 +27,28 @@ namespace ProyectoFinal_ProductosDeVenta
         public string Mail { get => _mail; set => _mail = value; }
         #endregion
 
+
+        #region Constructores
+        //por Defecto
+        public Usuario()
+        {
+            this.Id = 0;
+            this.Nombre = string.Empty;
+            this.Apellido = string.Empty;
+            this.NombreUsuario = string.Empty;
+            this.Contrasena = string.Empty;
+            this.Mail = string.Empty;
+        }
+        //Parámetros
+        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contrasena, string mail)
+        {
+            this.Id = id;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.NombreUsuario = nombreUsuario;
+            this.Contrasena = contrasena;
+            this.Mail = mail;
+        }
+        #endregion
     }
 }

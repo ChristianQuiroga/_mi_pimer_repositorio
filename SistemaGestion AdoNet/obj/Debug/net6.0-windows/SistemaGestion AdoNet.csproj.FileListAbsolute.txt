@@ -1,0 +1,29 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\SistemaGestion AdoNet.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\SistemaGestion AdoNet.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\SistemaGestion AdoNet.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\SistemaGestion AdoNet.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\SistemaGestion AdoNet.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.csproj.AssemblyReference.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.csproj.GenerateResource.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.csproj.CopyComplete
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\refint\SistemaGestion AdoNet.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion AdoNet.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\ref\SistemaGestion AdoNet.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.Properties.Resources.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.frmDgProductos.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.frmDgUsuarios.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.frmAltaProducto.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.FrmEliminarProducto.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion AdoNet\obj\Debug\net6.0-windows\SistemaGestion_AdoNet.frmModificarProducto.resources

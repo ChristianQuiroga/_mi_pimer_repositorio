@@ -12,3 +12,11 @@ C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.pdb
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.genruntimeconfig.cache
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ref\ProyectoFinal_ProductosDeVenta.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.csproj.AssemblyReference.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\ProyectoFinal_ProductosDeVenta\obj\Debug\net6.0\ProyectoFinal_ProductosDeVenta.csproj.CopyComplete

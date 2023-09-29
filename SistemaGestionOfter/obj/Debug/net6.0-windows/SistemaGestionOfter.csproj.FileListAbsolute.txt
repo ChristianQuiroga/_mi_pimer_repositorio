@@ -1,0 +1,16 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\bin\Debug\net6.0-windows\SistemaGestionOfter.exe
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\bin\Debug\net6.0-windows\SistemaGestionOfter.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\bin\Debug\net6.0-windows\SistemaGestionOfter.runtimeconfig.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\bin\Debug\net6.0-windows\SistemaGestionOfter.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\bin\Debug\net6.0-windows\SistemaGestionOfter.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.Form1.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.csproj.GenerateResource.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\refint\SistemaGestionOfter.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\SistemaGestionOfter.genruntimeconfig.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestionOfter\obj\Debug\net6.0-windows\ref\SistemaGestionOfter.dll

@@ -45,7 +45,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(796, 450);
             Controls.Add(lstMenu);
             Name = "AlaCarta_actividad";
             Text = "Bienvenidos a CoderHouse";

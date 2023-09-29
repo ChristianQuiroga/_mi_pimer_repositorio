@@ -10,7 +10,7 @@ namespace JugadorAbstracto
             Console.WriteLine("");
             Ronaldo ronaldo = new Ronaldo(88, 98, 89, 20, 90, 78);
 
-            messi.velocidad();
+            
             
 
             

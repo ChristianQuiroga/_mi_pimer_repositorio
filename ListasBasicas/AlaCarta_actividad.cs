@@ -19,7 +19,7 @@ namespace ListasBasicas
 
         //Declaramos el Dictionary
         private Dictionary<string, Dictionary<string, double>> menuRestaurante = new Dictionary<string, Dictionary<string, double>>();
-            
+
         private void AlaCarta_actividad_Load(object sender, EventArgs e)
         {
             #region menú
@@ -36,15 +36,15 @@ namespace ListasBasicas
 
             lstMenu.Items.Add("Sección\t\t\t\t\tProducto\t\tPrecio");
             //doble foreach
-            foreach  (KeyValuePair<string,Dictionary<string,Double>> seccion in menuRestaurante)
+            foreach (KeyValuePair<string, Dictionary<string, Double>> seccion in menuRestaurante)
             {
                 lstMenu.Items.Add(seccion.Key);
-                foreach (KeyValuePair<string,Double> precioValor in seccion.Value)
+                foreach (KeyValuePair<string, Double> precioValor in seccion.Value)
                 {
                     lstMenu.Items.Add("\t\t\t\t\t" + precioValor.Key.ToUpper() + "\t\t" + precioValor.Value);
                 }
             }
-            
+
             #endregion
 
 
