@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal_ProductosDeVenta
 {
-    internal class Venta
+    public class Venta
     {
 
         #region atributos
@@ -30,16 +30,16 @@ namespace ProyectoFinal_ProductosDeVenta
         //parámetros
         public Venta(int id, string comentarios, int idUsuario)
         {
-            _id = id;
-            _comentarios = comentarios;
-            _idUsuario = idUsuario;
+            this.Id = id;
+            this.Comentarios = comentarios;
+            this.IdUsuario = idUsuario;
         }
         //defecto
         public Venta()
         {
-            _id = 0;
-            _comentarios = string.Empty;
-            _idUsuario = 0;
+            this.Id = 0;
+            this.Comentarios = string.Empty;
+            this.IdUsuario = 0;
         }
         #endregion
     }

@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal_ProductosDeVenta
 {
-    internal class ProductoVendido
+    public class ProductoVendido
     {
-
         #region Atributos
         private int _id;
         private int _idProducto;
@@ -28,18 +27,18 @@ namespace ProyectoFinal_ProductosDeVenta
         //parámetros
         public ProductoVendido(int id, int idProducto, int stock, int idVenta)
         {
-            this._id = id;
-            this._idProducto = idProducto;
-            this._stock = stock;
-            this._idVenta = idVenta;
+            this.Id = id;
+            this.IdProducto = idProducto;
+            this.Stock = stock;
+            this.IdVenta = idVenta;
         }
         //defecto
         public ProductoVendido() 
         {
-            this._id = 0;
-            this._idProducto = 0;
-            this._stock = 0;
-            this._idVenta = 0;
+            this.Id = 0;
+            this.IdProducto = 0;
+            this.Stock = 0;
+            this.IdVenta = 0;
         }
         #endregion
 
