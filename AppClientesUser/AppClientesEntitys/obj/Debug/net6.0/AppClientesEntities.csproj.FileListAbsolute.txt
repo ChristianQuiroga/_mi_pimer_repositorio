@@ -1,0 +1,11 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\bin\Debug\net6.0\AppClientesEntities.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\bin\Debug\net6.0\AppClientesEntities.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\bin\Debug\net6.0\AppClientesEntities.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\refint\AppClientesEntities.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\AppClientesEntities.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesEntitys\obj\Debug\net6.0\ref\AppClientesEntities.dll

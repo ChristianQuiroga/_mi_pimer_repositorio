@@ -1,0 +1,17 @@
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesBussiness.deps.json
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesBussiness.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesBussiness.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesData.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesEntities.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesData.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\bin\Debug\net6.0\AppClientesEntities.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.csproj.AssemblyReference.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.AssemblyInfoInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.AssemblyInfo.cs
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.csproj.CoreCompileInputs.cache
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.csproj.CopyComplete
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\refint\AppClientesBussiness.dll
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\AppClientesBussiness.pdb
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\AppClientesUser\AppClientesBussiness\obj\Debug\net6.0\ref\AppClientesBussiness.dll
