@@ -14,5 +14,20 @@ namespace SistemaGestionBussiness
         {
             return VentaData.ListarVentas();
         }
+
+        public static void CrearVenta(Venta venta)
+        {
+            VentaData.CrearVenta(venta);
+        }
+
+        public static void ModificarVenta(Venta venta)
+        {
+            VentaData.ModificarVenta(venta);
+        }
+
+        public static void EliminarVenta(Venta venta)
+        {
+            VentaData.EliminarVenta(venta);
+        }
     }
 }

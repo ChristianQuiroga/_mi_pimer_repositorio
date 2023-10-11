@@ -1,5 +1,6 @@
 ﻿using SistemaGestionData;
 using SistemaGestionEntities;
+using SistemaGestionEntities.Responses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,22 @@ namespace SistemaGestionBussiness
         {
             return ProductoData.ListarProductos();
         }
+
+        public static ProductoResponse CrearProducto(Producto producto)
+        {
+            return ProductoData.CrearProducto(producto);
+        }
+
+        public static ProductoResponse ModificarProducto(Producto producto)
+        {
+            return ProductoData.ModificarProducto(producto);
+        }
+
+        public static ProductoResponse EliminarProducto(Producto producto)
+        { 
+            return ProductoData.EliminarProducto(producto);
+        }
+
+        
     }
 }

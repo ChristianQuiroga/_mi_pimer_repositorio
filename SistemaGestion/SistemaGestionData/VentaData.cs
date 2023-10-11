@@ -11,48 +11,48 @@ namespace SistemaGestionData
 {
     public static class VentaData
     {
-        public static Venta ObtenerVenta(int id)
-        {
-            Venta venta = new Venta();
+        //public static Venta ObtenerVenta(int id)
+        //{
+        //    Venta venta = new Venta();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
-            string query = "Select id, comentarios, idUsuario From Venta Where id = @id";
+        //    string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+        //    string query = "Select id, comentarios, idUsuario From Venta Where id = @id";
 
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(connectionString))
-                {
-                    conexion.Open();
+        //    try
+        //    {
+        //        using (SqlConnection conexion = new SqlConnection(connectionString))
+        //        {
+        //            conexion.Open();
 
-                    using (SqlCommand comando = new SqlCommand(query, conexion))
-                    {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
+        //            using (SqlCommand comando = new SqlCommand(query, conexion))
+        //            {
+        //                comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
 
-                        using (SqlDataReader dr = comando.ExecuteReader())
-                        {
-                            if (dr.HasRows)
-                            {
-                                while (dr.Read())
-                                {
-                                    venta.Id = Convert.ToInt32(dr["Id"]);
-                                    venta.Comentarios = dr["Comentarios"].ToString();
-                                    //venta.IdUsuario = dr["idUsuario"].ToString();
-                                    venta.IdUsuario = Convert.ToInt32(dr["Id"]);
-                                }
-                            }
-                        }
-                    }
+        //                using (SqlDataReader dr = comando.ExecuteReader())
+        //                {
+        //                    if (dr.HasRows)
+        //                    {
+        //                        while (dr.Read())
+        //                        {
+        //                            venta.Id = Convert.ToInt32(dr["Id"]);
+        //                            venta.Comentarios = dr["Comentarios"].ToString();
+        //                            //venta.IdUsuario = dr["idUsuario"].ToString();
+        //                            venta.IdUsuario = Convert.ToInt32(dr["Id"]);
+        //                        }
+        //                    }
+        //                }
+        //            }
 
-                    // Opcional
-                    conexion.Close();
-                }
-                return venta;
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
+        //            // Opcional
+        //            conexion.Close();
+        //        }
+        //        return venta;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return null;
+        //    }
+        //}
 
 
         public static List<Venta> ListarVentas()

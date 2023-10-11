@@ -1,4 +1,5 @@
 ﻿using SistemaGestionEntities;
+using SistemaGestionEntities.Responses;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -12,50 +13,50 @@ namespace SistemaGestionData
 {
     public static class UsuarioData
     {
-        public static Usuario ObtenerUsuario(int id)
-        {
-            Usuario usuario = new Usuario();
+        //public static Usuario ObtenerUsuario(int id)
+        //{
+        //    Usuario usuario = new Usuario();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
-            string query = "Select id, nombre, apellido, nombreusuario, contraseña, mail From Usuario Where id=@Id";
+        //    string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+        //    string query = "Select id, nombre, apellido, nombreusuario, contraseña, mail From Usuario Where id=@Id";
 
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(connectionString))
-                {
-                    conexion.Open();
+        //    try
+        //    {
+        //        using (SqlConnection conexion = new SqlConnection(connectionString))
+        //        {
+        //            conexion.Open();
 
-                    using (SqlCommand comando = new SqlCommand(query, conexion))
-                    {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
+        //            using (SqlCommand comando = new SqlCommand(query, conexion))
+        //            {
+        //                comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
 
-                        using (SqlDataReader dr = comando.ExecuteReader())
-                        {
-                            if (dr.HasRows)
-                            {
-                                while (dr.Read())
-                                {
-                                    usuario.Id = Convert.ToInt32(dr["Id"]);
-                                    usuario.Nombre = dr["Nombre"].ToString();
-                                    usuario.Apellido = dr["Apellido"].ToString();
-                                    usuario.NombreUsuario = dr["nombreusuario"].ToString();
-                                    usuario.Contrasena = dr["contraseña"].ToString();
-                                    usuario.Mail = dr["mail"].ToString();
-                                }
-                            }
-                        }
-                    }
+        //                using (SqlDataReader dr = comando.ExecuteReader())
+        //                {
+        //                    if (dr.HasRows)
+        //                    {
+        //                        while (dr.Read())
+        //                        {
+        //                            usuario.Id = Convert.ToInt32(dr["Id"]);
+        //                            usuario.Nombre = dr["Nombre"].ToString();
+        //                            usuario.Apellido = dr["Apellido"].ToString();
+        //                            usuario.NombreUsuario = dr["nombreusuario"].ToString();
+        //                            usuario.Contrasena = dr["contraseña"].ToString();
+        //                            usuario.Mail = dr["mail"].ToString();
+        //                        }
+        //                    }
+        //                }
+        //            }
 
-                    // Opcional
-                    conexion.Close();
-                }
-                return usuario;
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
+        //            // Opcional
+        //            conexion.Close();
+        //        }
+        //        return usuario;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return null;
+        //    }
+        //}
 
         public static List<Usuario> ListarUsuarios()
         {
@@ -110,8 +111,11 @@ namespace SistemaGestionData
             return listaUsuarios;
         }
 
-        public static void CrearUsuario(Usuario usuario)
+        //public static void CrearUsuario(Usuario usuario)
+        public static UsuarioResponse CrearUsuario(Usuario usuario)
         {
+            UsuarioResponse response = new UsuarioResponse();
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into Usuario(nombre, apellido, nombreusuario, contraseña, mail)" +
                         "Values(@nombre, @apellido, @nombreusuario, @contraseña, @mail)";
@@ -137,17 +141,25 @@ namespace SistemaGestionData
                     }
                     conexion.Close(); //cerramos
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
 
-                throw;
+                //throw;
                 //MessageBox.Show("Error en..." + ex);
+                response.Mensaje = ex.Message;
+                return response;
+
             }
         }
 
-        public static void ModificarUsuario(Usuario usuario)
+        //public static void ModificarUsuario(Usuario usuario)
+        public static UsuarioResponse ModificarUsuario(Usuario usuario)
         {
+            UsuarioResponse response = new UsuarioResponse();
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update Usuario " +
                         "Set Nombre = @nombre, Apellido = @apellido, NombreUsuario = @nombreusuario, contraseña = @contraseña, Mail = @mail " +
@@ -162,27 +174,33 @@ namespace SistemaGestionData
                         //teda los tipos de datos del sql, varchar, todos los tipos.
                         comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = usuario.Id });
 
-                        comando.Parameters.Add(new SqlParameter("Nombre", SqlDbType.VarChar) { Value = usuario.Nombre});
-                        comando.Parameters.Add(new SqlParameter("Apellido", SqlDbType.VarChar) { Value = usuario.Apellido});
-                        comando.Parameters.Add(new SqlParameter("NombreUsuario", SqlDbType.VarChar) { Value = usuario.NombreUsuario});
-                        comando.Parameters.Add(new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = usuario.Contrasena});
+                        comando.Parameters.Add(new SqlParameter("Nombre", SqlDbType.VarChar) { Value = usuario.Nombre });
+                        comando.Parameters.Add(new SqlParameter("Apellido", SqlDbType.VarChar) { Value = usuario.Apellido });
+                        comando.Parameters.Add(new SqlParameter("NombreUsuario", SqlDbType.VarChar) { Value = usuario.NombreUsuario });
+                        comando.Parameters.Add(new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = usuario.Contrasena });
                         comando.Parameters.Add(new SqlParameter("Mail", SqlDbType.VarChar) { Value = usuario.Mail });
 
-                        comando.ExecuteNonQuery(); 
+                        comando.ExecuteNonQuery();
 
                     }
-                    conexion.Close(); 
+                    conexion.Close();
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
-                throw;
+                
                 //MessageBox.Show("Error en..." + ex);
+                response.Mensaje = ex.Message;
+                return response;
             }
         }
 
-        public static void EliminarUsuario(Usuario usuario)
+        public static UsuarioResponse EliminarUsuario(Usuario usuario)
         {
+            UsuarioResponse response = new UsuarioResponse();
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From Usuario Where id = @Id";
 
@@ -198,14 +216,15 @@ namespace SistemaGestionData
                         comando.ExecuteNonQuery();
                     }
                     conexion.Close();
-
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
 
-                throw;
-                //MessageBox.Show("Error en..." + ex);
+                response.Mensaje = ex.Message;
+                return response;
             }
         }
     }

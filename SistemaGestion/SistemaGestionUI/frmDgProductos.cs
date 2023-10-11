@@ -89,7 +89,8 @@ namespace SistemaGestionUI
             if (e.RowIndex == -1 || e.ColumnIndex == -1) return;
 
             int Id = (int)this.dgProductos.Rows[e.RowIndex].Cells["Id"].Value;
-            Producto producto = ProductoData.ListarProductos().Where(x => x.Id == Id).FirstOrDefault();
+            //Producto producto = ProductoData.ListarProductos().Where(x => x.Id == Id).FirstOrDefault();
+            Producto producto = ProductoData.ObtenerProducto(Id);
 
             if (this.dgProductos.Columns[e.ColumnIndex].Name == "Editar")
             {

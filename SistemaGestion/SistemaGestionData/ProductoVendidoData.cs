@@ -11,46 +11,46 @@ namespace SistemaGestionData
 {
     public static class ProductoVendidoData
     {
-        public static ProductoVendido ObtenerProductoVendido(int id)
-        {
-            ProductoVendido productoVendido = new ProductoVendido();
+        //public static ProductoVendido ObtenerProductoVendido(int id)
+        //{
+        //    ProductoVendido productoVendido = new ProductoVendido();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
-            string query = "Select id, Stock, IdProducto, IdVenta From ProductoVendido Where id = @Id";
+        //    string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+        //    string query = "Select id, Stock, IdProducto, IdVenta From ProductoVendido Where id = @Id";
 
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(connectionString))
-                {
-                    conexion.Open();
+        //    try
+        //    {
+        //        using (SqlConnection conexion = new SqlConnection(connectionString))
+        //        {
+        //            conexion.Open();
 
-                    using (SqlCommand comando = new SqlCommand(query, conexion))
-                    {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
+        //            using (SqlCommand comando = new SqlCommand(query, conexion))
+        //            {
+        //                comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
 
-                        using (SqlDataReader dr = comando.ExecuteReader())
-                        {
-                            if (dr.HasRows)
-                            {
-                                while (dr.Read())
-                                {
-                                    productoVendido.Id = Convert.ToInt32(dr["ID"]);
-                                    productoVendido.Stock = Convert.ToInt32(dr["Stock"]);
-                                    productoVendido.IdProducto = Convert.ToInt32(dr["IdProducto"]);
-                                    productoVendido.IdVenta = Convert.ToInt32(dr["IdVenta"]);
-                                }
-                            }
-                        }
-                    }
-                    conexion.Close();
-                }
-                return productoVendido;
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
+        //                using (SqlDataReader dr = comando.ExecuteReader())
+        //                {
+        //                    if (dr.HasRows)
+        //                    {
+        //                        while (dr.Read())
+        //                        {
+        //                            productoVendido.Id = Convert.ToInt32(dr["ID"]);
+        //                            productoVendido.Stock = Convert.ToInt32(dr["Stock"]);
+        //                            productoVendido.IdProducto = Convert.ToInt32(dr["IdProducto"]);
+        //                            productoVendido.IdVenta = Convert.ToInt32(dr["IdVenta"]);
+        //                        }
+        //                    }
+        //                }
+        //            }
+        //            conexion.Close();
+        //        }
+        //        return productoVendido;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return null;
+        //    }
+        //}
 
 
         public static List<ProductoVendido> ListarProductosVendidos()

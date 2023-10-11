@@ -1,5 +1,6 @@
 ﻿using SistemaGestionData;
 using SistemaGestionEntities;
+using SistemaGestionEntities.Responses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,8 @@ namespace SistemaGestionUI
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             Producto producto = new Producto();
+            ProductoResponse response = new ProductoResponse();
+
 
             producto.Descripciones = txtDescripcion.Text;
             producto.Costo = numCosto.Value;
@@ -31,8 +34,14 @@ namespace SistemaGestionUI
             producto.Stock = numStock.Value;
             producto.IdUsuario = int.Parse(txtUsuario.Text);
 
-            ProductoData.CrearProducto(producto);
-            MessageBox.Show("Se grabo correctamente");
+            //ProductoData.CrearProducto(producto);
+            response = ProductoData.CrearProducto(producto);
+            if (response.Mensaje == "OK") 
+            {
+                MessageBox.Show("Se grabo correctamente");
+            }
+            else
+                MessageBox.Show("Ocurrio un error: " + response.Mensaje);
 
             this.Close();
 

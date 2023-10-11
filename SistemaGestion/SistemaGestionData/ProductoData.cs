@@ -1,4 +1,5 @@
 ﻿using SistemaGestionEntities;
+using SistemaGestionEntities.Responses;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -109,8 +110,11 @@ namespace SistemaGestionData
 
         }
         //una clase que no hace falta instanciarla. static, al tener un campo Identity la tabla no la escribimos. Es autoincremental.
-        public static void CrearProducto(Producto producto)
+        public static ProductoResponse CrearProducto(Producto producto)
+        //public static void CrearProducto(Producto producto)
         {
+            ProductoResponse response = new ProductoResponse();
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into Producto(Descripciones, Costo, Precioventa, stock, Idusuario)" +
                         "Values(@Descripciones, @Costo, @PrecioVenta, @stock, @idusuario)";
@@ -135,20 +139,29 @@ namespace SistemaGestionData
 
                     }
                     conexion.Close(); //cerramos
+
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
 
-                throw;
-                //MessageBox.Show("Error en..." + ex);
+                //throw;
+                response.Mensaje = ex.Message;
+                return response;
+
             }
 
 
         }
 
-        public static void ModificarProducto(Producto producto)
+        //public static void ModificarProducto(Producto producto)
+        public static ProductoResponse ModificarProducto(Producto producto)
         {
+            ProductoResponse response = new ProductoResponse();
+
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update Producto " +
                         "Set Descripciones = @Descripciones, Costo = @Costo, Precioventa = @PrecioVenta, stock = @Stock, Idusuario = @IdUsuario " +
@@ -174,17 +187,26 @@ namespace SistemaGestionData
                     }
                     conexion.Close(); //cerramos
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
 
-                throw new Exception("Ocurrio error: " + ex.Message, ex);
+                //throw new Exception("Ocurrio error: " + ex.Message, ex);
                 //MessageBox.Show("Error en..." + ex);
+                response.Mensaje = ex.Message;
+                return response;
             }
         }
 
-        public static void EliminarProducto(Producto producto)
+
+        //public static void EliminarProducto(Producto producto)
+        public static ProductoResponse EliminarProducto(Producto producto)
+        //public static ProductoResponse EliminarProducto(int Id)
         {
+            ProductoResponse response = new ProductoResponse();
+
             string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From Producto Where id = @Id";
 
@@ -196,18 +218,20 @@ namespace SistemaGestionData
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
                         comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = producto.Id });
+                        //comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = Id });
 
                         comando.ExecuteNonQuery();
                     }
                     conexion.Close();
 
                 }
+                response.Mensaje = "OK";
+                return response;
             }
             catch (Exception ex)
             {
-
-               throw new Exception("Ocurrio error: " + ex.Message, ex);
-               //MessageBox.Show("Error en..." + ex);
+                response.Mensaje = ex.Message;
+                return response;
             }
         }
 
