@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace SistemaGestionUI
 {
-    public partial class Form1 : Form
+    public partial class frmMenu : Form
     {
-        public Form1()
+        public frmMenu()
         {
             InitializeComponent();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

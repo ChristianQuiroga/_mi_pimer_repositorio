@@ -16,7 +16,7 @@ C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\bin\Debug\net6.0-windows\SistemaGestionEntities.pdb
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\bin\Debug\net6.0-windows\SistemaGestionData.pdb
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.csproj.AssemblyReference.cache
-C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.Form1.resources
+C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmMenu.resources
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmAltaProducto.resources
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmAltaProductoVendido.resources
 C:\Users\christian.quiroga\OneDrive - WiseTech Global Pty Ltd\Documents\GitHub\_mi_pimer_repositorio\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmAltaUsuario.resources
