@@ -34,11 +34,12 @@ namespace SistemaGestionWebApi.Controllers
 
         //Delete
         [HttpDelete(Name = "EliminarProducto")]
-        public void Delete([FromBody] Producto producto)  //los parámetros van en el Body
+        //public void Delete([FromBody] Producto producto)  //los parámetros van en el Body
+        public void Delete([FromBody] int Id)
         {
-            ProductoBussiness.EliminarProducto(producto);
+            ProductoBussiness.EliminarProducto(Id);
         }
-
+        
 
 
     }

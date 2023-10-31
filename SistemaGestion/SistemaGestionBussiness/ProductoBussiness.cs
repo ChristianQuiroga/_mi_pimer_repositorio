@@ -26,9 +26,9 @@ namespace SistemaGestionBussiness
             return ProductoData.ModificarProducto(producto);
         }
 
-        public static ProductoResponse EliminarProducto(Producto producto)
+        public static ProductoResponse EliminarProducto(int Id)
         { 
-            return ProductoData.EliminarProducto(producto);
+            return ProductoData.EliminarProducto(Id);
         }
 
         

@@ -13,11 +13,14 @@ namespace SistemaGestionData
 {
     public static class UsuarioData
     {
-        //public static Usuario ObtenerUsuario(int id)
+        public static string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+
+        //public static Usuario ObtenerNombreUsuario(int Id)
+        //public static List<Usuario> ObtenerNombreUsuario(int Id)
         //{
         //    Usuario usuario = new Usuario();
+        //    List<Usuario> listaNombre = new List<Usuario>();
 
-        //    string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
         //    string query = "Select id, nombre, apellido, nombreusuario, contraseña, mail From Usuario Where id=@Id";
 
         //    try
@@ -28,7 +31,7 @@ namespace SistemaGestionData
 
         //            using (SqlCommand comando = new SqlCommand(query, conexion))
         //            {
-        //                comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = id });
+        //                comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = Id });
 
         //                using (SqlDataReader dr = comando.ExecuteReader())
         //                {
@@ -36,12 +39,13 @@ namespace SistemaGestionData
         //                    {
         //                        while (dr.Read())
         //                        {
-        //                            usuario.Id = Convert.ToInt32(dr["Id"]);
+        //                            //usuario.Id = Convert.ToInt32(dr["Id"]);
         //                            usuario.Nombre = dr["Nombre"].ToString();
-        //                            usuario.Apellido = dr["Apellido"].ToString();
-        //                            usuario.NombreUsuario = dr["nombreusuario"].ToString();
-        //                            usuario.Contrasena = dr["contraseña"].ToString();
-        //                            usuario.Mail = dr["mail"].ToString();
+        //                            //usuario.Apellido = dr["Apellido"].ToString();
+        //                            //usuario.NombreUsuario = dr["nombreusuario"].ToString();
+        //                            //usuario.Contrasena = dr["contraseña"].ToString();
+        //                            //usuario.Mail = dr["mail"].ToString();
+        //                            listaNombre.Add(usuario);
         //                        }
         //                    }
         //                }
@@ -50,13 +54,116 @@ namespace SistemaGestionData
         //            // Opcional
         //            conexion.Close();
         //        }
-        //        return usuario;
         //    }
         //    catch (Exception ex)
         //    {
         //        return null;
         //    }
+        //    return listaNombre;
         //}
+
+        //Traer Nombre Usuario
+
+        #region Trear Nombre
+        public static List<Usuario> TraerNombre(string user, string password)
+        {
+            List<Usuario> listaNombre = new List<Usuario>();
+            Usuario usuario = new Usuario();
+
+            string query = "Select Nombre, apellido, mail From Usuario Where NombreUsuario = '@user' AND Contraseña = '@password'"; 
+
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(connectionString))
+                {
+                    conexion.Open();
+                    using(SqlCommand comando = new SqlCommand(query, conexion))
+                    {
+                        ////comando.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = Id });
+                        comando.Parameters.Add(new SqlParameter("NombreUsuario", SqlDbType.VarChar) { Value = user });
+                        comando.Parameters.Add(new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = password });
+                        //comando.Parameters.AddWithValue("nombreusuario", user);
+                        //comando.Parameters.AddWithValue("contraseña", password);
+
+                        using(SqlDataReader dr = comando.ExecuteReader())
+                        //comando.ExecuteScalar();
+                        {
+                            if (dr.HasRows)
+                            {
+                                while (dr.Read())
+                                {
+                                    //usuario.Id = Convert.ToInt32(dr["Id"]);
+                                    usuario.Nombre = dr["Nombre"].ToString();
+                                    //usuario.Apellido = dr["Apellido"].ToString();
+                                    //usuario.NombreUsuario = dr["nombreusuario"].ToString();
+                                    //usuario.Contrasena = dr["contraseña"].ToString();
+                                    //usuario.Mail = dr["mail"].ToString();
+                                    listaNombre.Add(usuario);
+                                }
+                            }
+                        }
+                    }
+                    // Opcional
+                    conexion.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return listaNombre;
+        }
+        #endregion
+
+        #region Validar Usuario
+        //public static List<Usuario> ValidarUsuario(string user)
+        //{
+        //    Usuario usuario = new Usuario();
+        //    List<Usuario> listaNombre = new List<Usuario>();
+
+        //    string query = "Select id, nombre, apellido, nombreusuario, contraseña, mail From Usuario Where nombreusuario=@user";
+
+        //    try
+        //    {
+        //        using (SqlConnection conexion = new SqlConnection(connectionString))
+        //        {
+        //            conexion.Open();
+
+        //            using (SqlCommand comando = new SqlCommand(query, conexion))
+        //            {
+        //                comando.Parameters.Add(new SqlParameter("nombreusuario", SqlDbType.VarChar) { Value = user });
+
+        //                using (SqlDataReader dr = comando.ExecuteReader())
+
+        //                {
+        //                    if (dr.HasRows)
+        //                    {
+        //                        while (dr.Read())
+        //                        {
+        //                            //usuario.Id = Convert.ToInt32(dr["Id"]);
+        //                            usuario.Nombre = dr["Nombre"].ToString();
+        //                            //usuario.Apellido = dr["Apellido"].ToString();
+        //                            //usuario.NombreUsuario = dr["nombreusuario"].ToString();
+        //                            //usuario.Contrasena = dr["contraseña"].ToString();
+        //                            //usuario.Mail = dr["mail"].ToString();
+        //                            listaNombre.Add(usuario);
+        //                        }
+        //                    }
+        //                }
+        //            }
+
+        //            // Opcional
+        //            conexion.Close();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return null;
+        //    }
+        //    return listaNombre;
+        //}
+
+        #endregion
 
         public static List<Usuario> ListarUsuarios()
         {
@@ -65,7 +172,7 @@ namespace SistemaGestionData
             //var listaUsarios = new List<Usuario>();
 
             //pasos para la conexion a la BD
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Select id, nombre, apellido, nombreusuario, contraseña, mail From Usuario;";
 
             try
@@ -76,6 +183,7 @@ namespace SistemaGestionData
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
                         using (SqlDataReader dr = comando.ExecuteReader())
+
                         {
                             if (dr.HasRows)
                             {
@@ -116,7 +224,7 @@ namespace SistemaGestionData
         {
             UsuarioResponse response = new UsuarioResponse();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into Usuario(nombre, apellido, nombreusuario, contraseña, mail)" +
                         "Values(@nombre, @apellido, @nombreusuario, @contraseña, @mail)";
             try
@@ -160,7 +268,7 @@ namespace SistemaGestionData
         {
             UsuarioResponse response = new UsuarioResponse();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update Usuario " +
                         "Set Nombre = @nombre, Apellido = @apellido, NombreUsuario = @nombreusuario, contraseña = @contraseña, Mail = @mail " +
                         "Where id = @Id";
@@ -190,18 +298,18 @@ namespace SistemaGestionData
             }
             catch (Exception ex)
             {
-                
+
                 //MessageBox.Show("Error en..." + ex);
                 response.Mensaje = ex.Message;
                 return response;
             }
         }
 
-        public static UsuarioResponse EliminarUsuario(Usuario usuario)
+        public static UsuarioResponse EliminarUsuario(int Id)
         {
             UsuarioResponse response = new UsuarioResponse();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From Usuario Where id = @Id";
 
             try
@@ -211,7 +319,7 @@ namespace SistemaGestionData
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = usuario.Id });
+                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = Id });
 
                         comando.ExecuteNonQuery();
                     }

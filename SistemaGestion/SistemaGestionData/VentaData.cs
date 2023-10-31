@@ -11,6 +11,8 @@ namespace SistemaGestionData
 {
     public static class VentaData
     {
+        public static string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+
         //public static Venta ObtenerVenta(int id)
         //{
         //    Venta venta = new Venta();
@@ -60,7 +62,7 @@ namespace SistemaGestionData
             List<Venta> listarVentas = new List<Venta>();
             //var listarVentas = new List<Venta>();  Otra forma
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Select id, comentarios, idUsuario From Venta ";
 
             try
@@ -102,7 +104,7 @@ namespace SistemaGestionData
 
         public static void CrearVenta(Venta venta)
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into Venta(Comentarios, idUsuario)" +
                         "Values(@Comentarios, @idUsuario)";
             try
@@ -133,7 +135,7 @@ namespace SistemaGestionData
 
         public static void ModificarVenta(Venta venta)
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update Venta " +
                         "Set Comentarios = @Comentarios, IdUsuario = @IdUsuario " +
                         "Where id = @Id";
@@ -163,9 +165,9 @@ namespace SistemaGestionData
         }
 
 
-        public static void EliminarVenta(Venta venta)
+        public static void EliminarVenta(int Id)
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From Venta Where id = @Id";
 
             try
@@ -175,7 +177,7 @@ namespace SistemaGestionData
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = venta.Id });
+                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = Id });
 
                         comando.ExecuteNonQuery();
                     }

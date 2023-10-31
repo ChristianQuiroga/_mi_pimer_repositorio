@@ -34,9 +34,9 @@ namespace SistemaGestionWebApi.Controllers
 
         //Delete
         [HttpDelete(Name = "EliminarUsuario")]
-        public void Delete([FromBody] Usuario usuario)  //los parámetros van en el Body
+        public void Delete([FromBody] int Id)  //los parámetros van en el Body
         {
-            UsuarioBussiness.EliminarUsuario(usuario);
+            UsuarioBussiness.EliminarUsuario(Id);
         }
 
     }

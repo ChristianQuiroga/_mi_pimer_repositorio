@@ -12,13 +12,14 @@ namespace SistemaGestionData
 {
     public static class ProductoData
     {
+        private static string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
 
         public static Producto ObtenerProducto(int id) //hay un parámetro Id
         {
             Producto producto = new Producto();
             // Importante: Para que funcione
             // Modifica el parametro Server por el de tu Servidor
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             string query = "SELECT Id,Descripciones,Costo,PrecioVenta,Stock,IdUsuario FROM Producto Where Id=@Id"; //@ para que lo reconozca como parámetro. Ojo que el Scalar solo me trae un campo.(Id). Una solo columna de la fila.
 
             try
@@ -61,7 +62,7 @@ namespace SistemaGestionData
         public static List<Producto> ListarProductos()
         {
             List<Producto> lista = new List<Producto>();
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Select id, descripciones, Costo, PrecioVenta, stock,  idusuario From Producto";
 
 
@@ -115,7 +116,7 @@ namespace SistemaGestionData
         {
             ProductoResponse response = new ProductoResponse();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into Producto(Descripciones, Costo, Precioventa, stock, Idusuario)" +
                         "Values(@Descripciones, @Costo, @PrecioVenta, @stock, @idusuario)";
             try
@@ -162,7 +163,7 @@ namespace SistemaGestionData
             ProductoResponse response = new ProductoResponse();
 
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update Producto " +
                         "Set Descripciones = @Descripciones, Costo = @Costo, Precioventa = @PrecioVenta, stock = @Stock, Idusuario = @IdUsuario " +
                         "Where id = @Id";
@@ -202,12 +203,11 @@ namespace SistemaGestionData
 
 
         //public static void EliminarProducto(Producto producto)
-        public static ProductoResponse EliminarProducto(Producto producto)
-        //public static ProductoResponse EliminarProducto(int Id)
+        public static ProductoResponse EliminarProducto(int Id)
         {
             ProductoResponse response = new ProductoResponse();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From Producto Where id = @Id";
 
             try
@@ -217,8 +217,7 @@ namespace SistemaGestionData
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = producto.Id });
-                        //comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = Id });
+                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.VarChar) { Value = Id });
 
                         comando.ExecuteNonQuery();
                     }

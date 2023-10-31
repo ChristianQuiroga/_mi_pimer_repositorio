@@ -11,6 +11,8 @@ namespace SistemaGestionData
 {
     public static class ProductoVendidoData
     {
+
+        public static string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
         //public static ProductoVendido ObtenerProductoVendido(int id)
         //{
         //    ProductoVendido productoVendido = new ProductoVendido();
@@ -57,7 +59,7 @@ namespace SistemaGestionData
         {
             List<ProductoVendido> listarProductosVendidos = new List<ProductoVendido>();
 
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Select id, Stock, IdProducto, IdVenta From ProductoVendido";
 
             try
@@ -102,7 +104,7 @@ namespace SistemaGestionData
 
         public static void CrearProductoVendido(ProductoVendido productoVendido)
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Insert Into ProductoVendido( Stock, IdProducto, IdVenta)" +
                         "Values( @Stock, @IdProducto, @IdVenta)";
             try
@@ -134,7 +136,7 @@ namespace SistemaGestionData
 
         public static void ModificarProductoVendido(ProductoVendido productoVendido)
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True";
             var query = "Update ProductoVendido " +
                         "Set Stock = @Stock, IdProducto = @IdProducto, IdVenta = @idventa " +
                         "Where Id = @id";
@@ -165,9 +167,9 @@ namespace SistemaGestionData
         }
 
 
-        public static void EliminarProductoVendido(ProductoVendido productoVendido)
+        public static void EliminarProductoVendido(int Id   )
         {
-            string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
+            //string connectionString = @"Server = 5CG30609HQ; DataBase = BaseGestion; Trusted_Connection = True;";
             var query = "Delete From ProductoVendido Where Id = @id";
 
             try
@@ -177,7 +179,7 @@ namespace SistemaGestionData
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(query, conexion))
                     {
-                        comando.Parameters.Add(new SqlParameter("id", SqlDbType.VarChar) { Value = productoVendido.Id });
+                        comando.Parameters.Add(new SqlParameter("id", SqlDbType.VarChar) { Value = Id });
 
                         comando.ExecuteNonQuery();
                     }
