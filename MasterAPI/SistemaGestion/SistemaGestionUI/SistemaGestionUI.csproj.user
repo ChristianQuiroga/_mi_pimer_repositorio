@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAltaProductoVendido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAltaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDgProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDgProductoVendido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDgUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDgVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmEliminarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEliminarProductoVendido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEliminarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEliminarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmModificarProductoVendido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmModificarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
